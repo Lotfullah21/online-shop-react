@@ -1,19 +1,21 @@
-import Footer from "./components/Footer.jsx";
-import Navbar from "./components/Navbar.jsx";
-import Courses from "./components/Courses";
+// import Footer from "./components/Footer.jsx";
+// import Navbar from "./components/Navbar.jsx";
+// import Courses from "./components/Courses";
+import Hero from "./components/Hero.jsx";
 
 function App() {
 	return (
 		<div className="min-h-screen flex flex-col">
-			<div>
+			{/* <div>
 				<Navbar></Navbar>
-			</div>
+			</div> */}
 			<main className="flex-1">
-				<Courses></Courses>
+				<Hero></Hero>
+				{/* <Courses></Courses> */}
 			</main>
-			<footer>
+			{/* <footer>
 				<Footer></Footer>
-			</footer>
+			</footer> */}
 		</div>
 	);
 }
